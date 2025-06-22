@@ -1,0 +1,32 @@
+{
+  "masked_sentence1": "The cat sat on the [MASK] because it was tired.",
+  "predictions1": [
+    {
+      "token": "mat",
+      "score": 0.82
+    },
+    {
+      "token": "floor",
+      "score": 0.13
+    },
+    {
+      "token": "rug",
+      "score": 0.03
+    }
+  ],
+  "masked_sentence2": "The cat sat on the mat because it was [MASK].",
+  "predictions2": [
+    {
+      "token": "tired",
+      "score": 0.9
+    },
+    {
+      "token": "sleepy",
+      "score": 0.07
+    },
+    {
+      "token": "exhausted",
+      "score": 0.02
+    }
+  ]
+}

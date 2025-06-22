@@ -1,0 +1,41 @@
+
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm, VSCode and other IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Large model files
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Logs
+*.log
