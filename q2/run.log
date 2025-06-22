@@ -1,0 +1,107 @@
+=== Model Query Log ===
+
+Question: What is the capital of France?
+First answer: Paris
+Validation: PASS
+
+---
+
+Question: Who wrote Hamlet?
+First answer: William Shakespeare (with some errors)
+Validation: PASS
+
+---
+
+Question: What is the chemical symbol for gold?
+First answer: Au
+Validation: PASS
+
+---
+
+Question: What is the largest planet in our solar system?
+First answer: Jupiter
+Validation: PASS
+
+---
+
+Question: Who painted the Mona Lisa?
+First answer: Leonardo da Vinci
+Validation: PASS
+
+---
+
+Question: What year did World War II end?
+First answer: 1945
+Validation: PASS
+
+---
+
+Question: What is the square root of 64?
+First answer: 8 (with some errors)
+Validation: PASS
+
+---
+
+Question: Who is the author of 'Pride and Prejudice'?
+First answer: Jane Austen (with some errors)
+Validation: PASS
+
+---
+
+Question: What is the boiling point of water in Celsius?
+First answer: 100 (with some errors)
+Validation: PASS
+
+---
+
+Question: What is the capital of Japan?
+First answer: Tokyo
+Validation: PASS
+
+---
+
+Question: What is the population of Mars?
+First answer: I think the answer is [hallucinated response for What is the population of Mars?]
+Validation: RETRY: out-of-domain
+Retrying...
+Second answer: I think the answer is [hallucinated response for What is the population of Mars?]
+Retry validation: RETRY: out-of-domain
+
+---
+
+Question: Who is the current CEO of Fictional Corp?
+First answer: I think the answer is [hallucinated response for Who is the current CEO of Fictional Corp?]
+Validation: RETRY: out-of-domain
+Retrying...
+Second answer: I think the answer is [hallucinated response for Who is the current CEO of Fictional Corp?]
+Retry validation: RETRY: out-of-domain
+
+---
+
+Question: What is the recipe for a perfect soufflé?
+First answer: I think the answer is [hallucinated response for What is the recipe for a perfect soufflé?]
+Validation: RETRY: out-of-domain
+Retrying...
+Second answer: I think the answer is [hallucinated response for What is the recipe for a perfect soufflé?]
+Retry validation: RETRY: out-of-domain
+
+---
+
+Question: When will humans achieve immortality?
+First answer: I think the answer is [hallucinated response for When will humans achieve immortality?]
+Validation: RETRY: out-of-domain
+Retrying...
+Second answer: I think the answer is [hallucinated response for When will humans achieve immortality?]
+Retry validation: RETRY: out-of-domain
+
+---
+
+Question: What is the meaning of life?
+First answer: I think the answer is [hallucinated response for What is the meaning of life?]
+Validation: RETRY: out-of-domain
+Retrying...
+Second answer: I think the answer is [hallucinated response for What is the meaning of life?]
+Retry validation: RETRY: out-of-domain
+
+---
+
